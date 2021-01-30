@@ -1,0 +1,17 @@
+<!-- 顶部导航栏 -->
+<view class="tab-bar">
+  <view class="tab-item {{ tab == 0 ? 'active' : '' }}" bindtap="tabChangeHandle" 
+  data-item="0">myList</view>
+  <view class="tab-item {{ tab == 1 ? 'active' : '' }}" bindtap="tabChangeHandle" data-item="1">player</view>
+  <view class="tab-item {{ tab == 2 ? 'active' : '' }}" bindtap="tabChangeHandle" data-item="2">playList</view>
+</view>
+<!-- 内容呈现区 -->
+<view class="main">
+  <swiper current="{{ item }}" bindchange="swiperChangeHandle">
+    <swiper-item><include src="../myList/myList.wxml" /></swiper-item>
+    <swiper-item><include src="../player/player.wxml" /></swiper-item>
+    <swiper-item><include src="../playList/playList.wxml" /></swiper-item>
+  </swiper>
+</view>
+<!-- 歌曲播放条 -->
+<view class="player-bar"></view>
