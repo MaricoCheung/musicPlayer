@@ -1,0 +1,36 @@
+<scoll-view style="background-color:red height: 100%" scroll-y>
+  <view class="content-mylist">
+    <view class="list-item">
+      <image src="../../assets/prototype.png"/>
+      <text>经典粤语</text>
+    </view>
+    <view class="list-item">
+      <image src="../../assets/prototype.png"/>
+      <text>经典粤语</text>
+    </view>
+    <view class="list-item">
+      <image src="../../assets/prototype.png"/>
+      <text>经典粤语</text>
+    </view>
+    <view class="list-item">
+      <image src="../../assets/prototype.png"/>
+      <text>经典粤语</text>
+    </view>
+    <view class="list-item">
+      <image src="../../assets/prototype.png"/>
+      <text>经典粤语</text>
+    </view>
+    <view class="list-item">
+      <image src="../../assets/prototype.png"/>
+      <text>经典粤语</text>
+    </view>
+    <view class="list-item">
+      <image src="../../assets/prototype.png"/>
+      <text>经典粤语</text>
+    </view>
+    <view class="list-item">
+      <image src="../../assets/prototype.png"/>
+      <text>经典粤语</text>
+    </view>
+  </view>
+</scoll-view>
