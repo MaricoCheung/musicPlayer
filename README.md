@@ -3,7 +3,7 @@ a simple music player for wechat mini program
 
 ## Preview
 <div style="display: flex">
- <img src="F:\02-WebDev\wx-demo\wx-musicPlayer\assets\prototype.png" height="498" style="flex: 1"/>
+ <img src="https://github.com/MaricoCheung/wx-musicPlayer/blob/main/assets/prototype.png" height="498" style="flex: 1"/>
      <img src="F:\02-WebDev\wx-demo\wx-musicPlayer\assets\preview.png" height="498" style="flex: 1"/>
 </div>
 
